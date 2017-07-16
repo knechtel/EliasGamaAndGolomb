@@ -1,0 +1,12 @@
+if (cont == 7) {
+
+						System.out.println("aqui ");
+
+						System.out.println(sb.toString());
+						int foo = Integer.parseInt(sb.toString(), 2);
+						foo = foo + divisor;
+						System.out.println((char) foo);
+
+						br.close();
+						System.exit(0);
+					}
